@@ -10,7 +10,7 @@ You have been given a static website with a blank card. You will be using jQuery
 - Create an object with the following key value pairs:
     - ```{name:string,favoriteProgrammingLanguage:string, profileImg:string, greeting:string, funScale:number(1-10), skills:[array of strings]}```
 
-- Create a function that will upon clicking of the button at the bottom of the provided html use the object you created to target and update the corresponding elements on the page.
+- Create a function that will add a `click` event listener to the button at the bottom of the provided html. Using the object you created update the corresponding elements on the page.
 - Using the existing tags, classes, and ids style the card to match your personality.
 
 
