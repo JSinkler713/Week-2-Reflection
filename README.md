@@ -7,11 +7,15 @@
 
 ## Prompt
 
-**You are Batman!** You will be using jQuery to reveal your secret idenity to the world...
+**You are Batman!**
+
+![batman](https://media.giphy.com/media/kg4e4Wksv20eY/giphy.gif)
+
+You will be using jQuery to reveal your secret idenity to the world...
 
 - Create an object with the following key value pairs:
 
-  - `{name:string,favoriteProgrammingLanguage:string, profileImg:string, greeting:string, funScale:number(1-10), skills:[array of strings]}`
+  - `{name:string,favoriteHobby:string, profileImg:string, greeting:string, funScale:number(1-10), skills:[array of strings]}`
 
 - Create a function that will add a `click` event listener to the button at the bottom of the provided html. Using the object you created update the corresponding elements on the page. [DO NOT CHANGE THE HTML]
 - Using the existing tags, classes, and ids feel free to style the card.
