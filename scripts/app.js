@@ -13,6 +13,22 @@ const james = {
   skills: ['guitar', 'wood-working', 'ceramics']
 }
 
+// make an audio object for the laugh track
+const laughTrack = new Audio('laughingman6.wav')
+
+// new and Audio are key words here, the Audio object has certain methods and properties. We will use the play() method.
+
+
+
+
+
+
+
+
+
+
+
+
 //2. select the button
 let button = document.querySelector('#btn');
 
@@ -28,7 +44,7 @@ const favHobby = document.querySelector('.fav-hobby')
 //9.select the fun-scale
 const funScale = document.querySelector('#fun-scale')
 
-//10. selct the skills-list
+//10. select the skills-list
 const skillsList = document.querySelector('.skills-list')
 
 //11.select the img element
@@ -44,6 +60,11 @@ console.log(h2Secret)
 
 
 button.addEventListener('click', ()=> {
+  //on button click, the laugh track will play
+  laughTrack.play()
+
+
+
   //3 check it is hooked up with a console log
   //4 console.log('it got clicked');
 
